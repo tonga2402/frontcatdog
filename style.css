@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;400 & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    background-color:#F0A83E;
+    width: 414px;
+    height: 54px;
+    
+}
+ .container h3{
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+     
+}
+.text{
+   color: white;
+}
+.cat{
+    position: relative;
+    margin-left: 40px;
+    top: 1px;
+    width: 10.56px;
+}
+.dog{
+    position: relative;
+    margin-left: 3px;
+    top: 1px;
+    width: 10.56px;
+}    
+.vector{
+    position: relative;
+    margin-left: 170px;
+    width: 20px
+   
+}
+
+.slide{
+    background-image: url(img/Full\ 1.png);
+    height: 440px;
+    width: 414px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ h2{
+    position: relative;
+    top: 180px;
+    left: 20px;
+    background-color: white;
+    width: 365px;
+    height: 54px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: normal;
+ }
+    
+h4{
+    position: relative;
+    font-weight: normal;
+    top: 195px;
+    left: 190px;
+}
+ h5{
+    position: relative;
+    top: 210px;
+    left: 220px;
+    background: #F0A83E;
+    width: 141px;
+    height: 49px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.paw{
+    position: relative;
+    width:90.38px;
+    height: 83.95px;
+    left: 172.33px;
+    top: 20px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    width: 212.89px;
+    margin-top: 25px;
+    margin-left: 105px;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    font-size:20px;
+    font-weight: 400px;
+    line-height: 15px;
+    margin-top: 25px;
+    margin-left: 58px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 420px;
+    margin-top: 40px;
+    
+}
+
+.churrasquito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url(img/churrasquito.png);
+    width: 239px;
+    height: 283px;
+    margin: 12px;
+    padding: 7px;
+    
+}
+
+.comedero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url(img/comedero.png);
+    width: 239px;
+    height: 283px;
+    margin: 12px;
+    padding: 7px;
+}
+
+.Juguete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url(img/Huesito.png);
+    width: 239px;
+    height: 283px;
+    padding: 12px;
+    margin: 12px;
+
+}
+
+.precio{
+    color: #F0A83E;
+}
+
+#contacto{
+    margin: 0px;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130px;
+    width: 298px;
+    margin-top: 15px;
+}
+
+#nombre{
+    background: #3C2313;
+    padding: 5px;
+    height: 40px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+}
+#email{
+    background: #3C2313;
+    padding: 5px;
+    height: 40px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+}
+#telefono{
+    background: #3C2313;
+    padding: 5px;
+    height: 40px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+}
+ #reset{
+    background: #8A8787;
+    margin-top: 45px;
+    margin-left: 4px;
+    width: 199px;
+    height: 45px;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+}
+#submit{
+    background: #F0A83E;
+    margin-top: 45px;
+    margin-left: 2px;
+    width: 199px;
+    height: 45px;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+}
+
+.suscriptores{
+    position: relative;
+    background-color: #F0A83E;
+    margin-top: 45px;
+    width: 414px;
+    height: 101px;    
+}
+
+#sobre{
+    position: absolute;
+    margin: 17px 7px;
+}
+.suscríbete{
+    position: absolute;
+    top: 12px;
+    left: 65px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.email2 #email{
+    position: absolute;
+    top: 2123px;
+    left: 17px;
+    background: #FFFFFF;
+    width: 261px;
+    height: 40px;
+    color: grey;
+    padding: 15px;
+    
+
+}
+
+.suscribirte #submit{
+    position: absolute;
+    top: 2081px;
+    left: 285px;
+    background: #3C2313;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+}
+footer{
+       background-color: #3C2313;
+       width: 414px;
+       height: 320px;
+ }
+
+ .footer__logo{
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+}
+
+.text2{
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: normal; 
+    margin-left: 3px;
+
+}
+.h32{
+    color:white;
+    font-size: 15px;
+    font-weight: normal;
+    
+}
+
+.cat2{
+    width:14px;
+    height: 14px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.dog2{
+    width:14px;
+    height: 14px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.contactanos{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 160px;
+    line-height: 40px;
+
+}
+
+#localidad{
+    color: white;
+    font-size: 24px;
+    
+    
+}
+
+#Tel{
+    position: relative;
+    color: white;
+    top: 42px;
+    font-size: 24px;
+}
+
+#Correo{
+    position: relative;
+    color: white;
+    top: 52px;
+    font-size: 24px;
+}
+
+#calle{
+    position: absolute;
+    color: #8A8787;
+    top: 25px;
+    left: 5px;    
+}
+
+#numero{
+    position: relative;
+    color: #8A8787;
+    top: 30px;
+    left: 5px;    
+}
+
+#mail{
+    position: relative;
+    color: #8A8787;
+    top: 40px;
+    left: 5px;    
+}
+
+#location{
+    position: absolute;
+    left: -60px;
+    top: 5px;
+}
+#phone{
+    position: absolute;
+    left: -60px;
+    top: 92px;
+}
+#Group{
+    position: absolute;
+    left: -60px;
+    top: 180px;
+}
+#derechos{
+    position: absolute;
+    background-color: black;
+    width: 414px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    top: 2492px;
+
+}
+
