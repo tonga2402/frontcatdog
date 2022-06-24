@@ -131,55 +131,20 @@ h6{
     margin: 10px;
     font-weight:lighter;
 }
-.cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    
-}
-
 .churrasquito{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    background-image: url(img/churrasquito.png);
-    width: 239px;
-    height: 283px;
-    margin: 12px;
-    padding: 7px;
-    
+    background-position: 50%;
+    background: #FBFAF6;
+    width: 265px;
+    height: 315px;
+    font-weight: 400;
 }
-
-.comedero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    background-image: url(img/comedero.png);
-    width: 239px;
-    height: 283px;
-    margin: 12px;
-    padding: 7px;
-}
-
-.Juguete{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    background-image: url(img/Huesito.png);
-    width: 239px;
-    height: 283px;
-    padding: 12px;
-    margin: 12px;
-
-}
-
+ 
 .precio{
     color: #F0A83E;
-}
+} 
 
 #contacto{
     margin: 0px;
