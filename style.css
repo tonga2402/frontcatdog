@@ -135,7 +135,8 @@ h6{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-position: 50%;
+    margin-left: 75px;
+    margin-top: 30px;
     background: #FBFAF6;
     width: 265px;
     height: 315px;
@@ -230,10 +231,11 @@ h6{
 }
 
 #sobre{
-    margin: 17px 7px;
+    margin: 17px;
+    
 }
 .suscríbete{
-    margin-top: 13px;
+    margin-top: 15px;
     margin-left: 20px;
     font-size: 20px;
     color: white;
@@ -292,7 +294,7 @@ footer{
     margin-right: 3px;
 }
 .dog2{
-    width:14px;
+    width:17px;
     height: 14px;
     margin-top: 3px;
     margin-left: 3px;
@@ -375,7 +377,7 @@ footer{
 
 }
 
-@media screen and (min-width: 750px)
+@media screen and (min-width: 460px)
 { .slide {
     align-items: flex-end;
 }
@@ -384,6 +386,20 @@ footer{
   }  
   .slide h5{
     margin-right: 115px;
-  
 }
+}
+@media screen and (min-width: 760px){
+
+    .cards{
+        display: flex;
+        margin-left: -35px;
+    }
+    .email2{
+        margin-left: 220px; 
+    }
+    .footer__logo{
+        position: relative;
+        top: 47%;
+        left: 35%;
+    }
 }
